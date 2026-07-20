@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Unsloth / PyTorch / Compiled Cache
+unsloth_compiled_cache/
+outputs/
+
+# Model Weights & Binaries (exceeding GitHub 100MB file limit)
+schueler_model_merged/
+schueler_model_gguf/
+lora_model_schueler/
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+*.onnx
+
+# Temporary scratch files
+download_mistral.py
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
