@@ -29,3 +29,24 @@ download_mistral.py
 Thumbs.db
 .vscode/
 .idea/
+
+
+# Standard Security & Ballast Ignores
+node_modules/
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*_state.json
+dist/
+build/
+.next/
+.vercel/
+.vite/
+.astro/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
